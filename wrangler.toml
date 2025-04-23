@@ -1,0 +1,6 @@
+name = "codenetic-site"
+main = "./worker.js"  # Required even for static sites, just a dummy placeholder
+compatibility_date = "2025-04-23"
+
+[assets]
+directory = "./public"
