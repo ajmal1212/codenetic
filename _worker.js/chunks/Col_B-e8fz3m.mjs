@@ -587,16 +587,6 @@ const $$InputField = createComponent(($$result, $$props, $$slots) => {
   ], "class:list")} data-astro-cid-uahl2chr> <input${addAttribute(id, "id")}${addAttribute(type, "type")}${addAttribute(id, "name")}${addAttribute(label, "placeholder")}${addAttribute(required, "required")}${addAttribute(disabled, "disabled")}${addAttribute(value, "value")} class="input__field peer" data-astro-cid-uahl2chr> <label${addAttribute(id, "for")}${addAttribute(`input__label ${iconPosition === "lead" ? "peer-placeholder-shown:left-10 peer-focus:left-2" : ""}`, "class")} data-astro-cid-uahl2chr> ${label} </label> ${iconName && renderTemplate`${renderComponent($$result, "Icon", $$Icon, { "name": iconName, "class": "input__icon", "data-astro-cid-uahl2chr": true })}`} ${helperText && renderTemplate`<small class="input__helper-text" data-astro-cid-uahl2chr> <span data-astro-cid-uahl2chr> ${helperText} </span> </small>`} </div> `;
 }, "/workspaces/codenetic/src/components/ui/forms/form-elements/InputField.astro", void 0);
 
-const $$Astro$7 = createAstro("https://foxi.netlify.app/");
-const $$SignUp = createComponent(($$result, $$props, $$slots) => {
-  const Astro2 = $$result.createAstro($$Astro$7, $$props, $$slots);
-  Astro2.self = $$SignUp;
-  const { classes } = Astro2.props;
-  return renderTemplate`${renderComponent($$result, "Modal", $$Modal, { "id": "signup", "classes": classes, "title": "Sign up" }, { "default": ($$result2) => renderTemplate` ${maybeRenderHead()}<p class="mb-0">Enter your email bellow to get started with Foxi.</p> ${renderComponent($$result2, "Form", $$Form, {}, { "default": ($$result3) => renderTemplate` ${renderComponent($$result3, "FormField", $$FormField, {}, { "default": ($$result4) => renderTemplate` ${renderComponent($$result4, "InputField", $$InputField, { "type": "email", "id": "email", "label": "Your Email" })} ` })} ${renderComponent($$result3, "Button", $$Button, { "style": "primary", "type": "submit", "classes": "w-full", "size": "lg" }, { "default": ($$result4) => renderTemplate`Sign up` })} <div class="my-2 text-center">or</div> ${renderComponent($$result3, "Button", $$Button, { "style": "primary", "type": "submit", "classes": "w-full", "size": "lg", "classes": "!bg-white w-full !text-neutral-500 border border-neutral-100" }, { "default": ($$result4) => renderTemplate` ${renderComponent($$result4, "Icon", $$Icon, { "name": "google-logo", "class": "h-6 w-6" })}
-Signup with Google
-` })} ` })} ` })}`;
-}, "/workspaces/codenetic/src/components/blocks/modal/SignUp.astro", void 0);
-
 const $$Astro$6 = createAstro("https://foxi.netlify.app/");
 const $$ClientRouter = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$6, $$props, $$slots);
